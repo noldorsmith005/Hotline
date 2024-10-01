@@ -1,0 +1,188 @@
+{
+    "IDS": [
+        1,
+        58,
+        51,
+        96
+    ],
+    "Sessions": [
+        {
+            "user": "nate_g",
+            "addr": "192.168.0.155",
+            "token": ";6re?P1npK*I[D)E{JaKeevihiFj#2VO20]|Q<A.dngG*,FA/z;)Rs4i0^Z?w<hMi=GtKha@d{Sdn&GX,Dd}y|8N8e3Jo|Jm;.~29"
+        }
+    ],
+    "Users": [
+        {
+            "username": "nate_g",
+            "displayname": "Nate",
+            "password": "adminkey.sudo",
+            "public": true,
+            "contacts": [
+                "dom_g",
+                "rgartland",
+                "chuck_g"
+            ],
+            "profpic": "./assets/profilepics/nate_g.png"
+        },
+        {
+            "username": "dom_g",
+            "displayname": "Dom",
+            "password": "testpassword",
+            "public": true,
+            "contacts": [],
+            "profpic": "./assets/profilepics/dom_g.png"
+        },
+        {
+            "username": "rgartland",
+            "displayname": "Mom",
+            "password": "suertuda2022",
+            "public": true,
+            "contacts": [],
+            "profpic": "./assets/profilepics/rgartland.png"
+        },
+        {
+            "username": "chuck_g",
+            "displayname": "Pop",
+            "password": "chuckpass.key",
+            "public": true,
+            "contacts": [],
+            "profpic": "./assets/profilepics/chuck_g.png"
+        },
+        {
+            "username": "testuser",
+            "displayname": "Test User",
+            "password": "testpassword.key",
+            "public": false,
+            "contacts": [],
+            "profpic": "./assets/profilepics/testuser.png"
+        }
+    ],
+    "ChatStreams": [
+        {
+            "id": 1,
+            "name": "The Boys",
+            "group": true,
+            "admins": [
+                "nate_g"
+            ],
+            "users": [
+                "nate_g",
+                "dom_g"
+            ],
+            "messages": [
+                {
+                    "source": "nate_g",
+                    "content": "test message one"
+                },
+                {
+                    "source": "dom_g",
+                    "content": "test response to message one"
+                },
+                {
+                    "source": "nate_g",
+                    "content": "test response to that response"
+                },
+                {
+                    "source": "nate_g",
+                    "content": "hi everybody"
+                },
+                {
+                    "source": "nate_g",
+                    "content": "hello from my iPhone "
+                },
+                {
+                    "source": "nate_g",
+                    "content": "hello everyone"
+                },
+                {
+                    "source": "nate_g",
+                    "content": "test scroll"
+                },
+                {
+                    "source": "nate_g",
+                    "content": "test prevent refresh"
+                },
+                {
+                    "source": "nate_g",
+                    "content": "test prevent refresh 2"
+                },
+                {
+                    "source": "nate_g",
+                    "content": "wasup yall"
+                },
+                {
+                    "source": "nate_g",
+                    "content": "test message"
+                },
+                {
+                    "source": "nate_g",
+                    "content": "test message from phone"
+                },
+                {
+                    "source": "nate_g",
+                    "content": "test to Dom"
+                },
+                {
+                    "source": "nate_g",
+                    "content": "cool"
+                },
+                {
+                    "source": "nate_g",
+                    "content": "testing"
+                },
+                {
+                    "source": "nate_g",
+                    "content": "was up"
+                },
+                {
+                    "source": "nate_g",
+                    "content": "test stream chat"
+                }
+            ]
+        },
+        {
+            "id": 58,
+            "name": "",
+            "group": false,
+            "admins": [
+                "nate_g",
+                "dom_g"
+            ],
+            "users": [
+                "nate_g",
+                "dom_g"
+            ],
+            "messages": []
+        },
+        {
+            "id": 51,
+            "name": "",
+            "group": false,
+            "admins": [
+                "nate_g",
+                "rgartland"
+            ],
+            "users": [
+                "rgartland",
+                "nate_g"
+            ],
+            "messages": []
+        },
+        {
+            "id": 96,
+            "name": "Family Group",
+            "group": true,
+            "admins": [
+                "nate_g"
+            ],
+            "users": [
+                "dom_g",
+                "rgartland",
+                "nate_g",
+                "chuck_g"
+            ],
+            "messages": []
+        }
+    ]
+}

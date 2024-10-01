@@ -1,0 +1,30 @@
+{
+    "CurrentUser": {
+        "loggedin": false,
+        "publicacct": false,
+        "username": "",
+        "displayname": "",
+        "password": "",
+        "token": ""
+    },
+    "Vaults": [
+        {
+            "setup": false,
+            "vaultkey": "",
+            "collection": [
+                {
+                    "username": "",
+                    "media": false,
+                    "contents": ""
+                }
+            ]
+        }
+    ],
+    "CryptKeys": [
+        {
+            "user": "",
+            "publickey": "",
+            "privatekey": ""
+        }
+    ]
+}

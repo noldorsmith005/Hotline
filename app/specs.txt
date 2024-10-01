@@ -1,0 +1,84 @@
+Pending Updates:
+    ~Complete privacy settings
+    ~Local storage for profile pic on message send
+    ~Video and file support
+    ~Refactor password viewing and changing
+    ~User guide
+    ~Auto-Renewing authentication token
+    ~Periodic re-authentication
+    ~Refactor user data storage with settings dicts
+    ~Add stream initial data loading from local database
+    ~Sever migration to django
+    ~XMPP implementation on server-side in addition to HTTP
+    ~Update server security measures
+    ~Optional OTR channels
+    ~Custom keyboard
+    ~Push notifications
+    ~Notifications settings
+    ~Encryption
+        ~keystore and keychain implementation for symmetrical AES keys
+        ~AES encryption of local and server data
+        ~E2E encryption of chat communication
+        ~Default all
+    ~Password hashing
+    ~Setup support for HTTPS
+    ~Implement 2FA for log-ins
+    ~Database sharding
+    ~User agreement
+
+
+
+Verion II: Current -- (v2.8.7) (7/11/2024):
+    -Secure messageing application
+
+    -Supported Operating Systems:
+        -IOS
+        -Android
+    
+    -UI
+        -GUI Application -> Flutter
+        -Push notifications **
+
+    -Account Managing
+        -Create Account
+        -Delete Account 
+	    -Update password
+
+    -Chat Managing 
+        -Create chats
+        -Delete chats
+        -Add to group
+        -Remove from group
+        -Rename chat
+        -Toggle encryption
+    
+    -Contacts
+        -Create contact
+        -Edit contact
+        -Delete contact 
+
+    -Messaging capabilities
+        -SMS
+	    -File sharing
+        -Direct messaging
+	    -Group messaging
+        -Standard Encryption **
+        -End-to-end Encryption **
+        -Admin users in group messages
+        -Messaging Features 
+            -Message deleting
+            -Reactions **
+            -Media downloading
+
+    -Additional Features
+        -Vault
+            -Message locking: messages that are locked and unlocked with user's vault key
+            -Vault database: local database where messages can be stored
+
+    -Server
+        -Custom Python server with CRUD request functionality and routing -> Flask
+        -DevAdmin page to access full database **
+        -Server authentication security with static app token and user session tokens
+        -Server authentication secutity with IP whitelisting 
+        -Auto timed chat cleaning **
+	
