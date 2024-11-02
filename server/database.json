@@ -1,14 +1,12 @@
 {
     "IDS": [
-        80,
-        90,
-        93
+        32
     ],
     "Sessions": [
         {
             "user": "nate_g",
             "addr": "172.66.2.214",
-            "token": "Q=v]EvOXl|U,M1c5Zt628(M3fySIocmnmT|b1fY@|,DpSSKUT6:LDZs45&L.mH.tHg;y1,4=p/|aDWS8^LbmraW>yAN?u0}DI9xZ;"
+            "token": ";FnRnx+ZXAHLSN&;ZXq<h|+~<;R;tciMkka<OmjYR7XQD:nBxck+PXnd=d*]6L#X9-i[H.)WrQ;ixZL2NtHX]t9:y8fFQ/q,cwN1I"
         }
     ],
     "Users": [
@@ -19,40 +17,9 @@
             "public": true,
             "approvedcontacts": false,
             "contacts": [
-                "dom_g",
-                "rgartland",
-                "chuck_g"
+                "testuser"
             ],
             "profpic": "./assets/profilepics/nate_g.png"
-        },
-        {
-            "username": "dom_g",
-            "displayname": "Dom",
-            "password": "testpassword",
-            "public": true,
-            "approvedcontacts": false,
-            "contacts": [
-                "nate_g"
-            ],
-            "profpic": "./assets/profilepics/dom_g.png"
-        },
-        {
-            "username": "rgartland",
-            "displayname": "Mom",
-            "password": "suertuda2022",
-            "public": true,
-            "approvedcontacts": false,
-            "contacts": [],
-            "profpic": "./assets/profilepics/rgartland.png"
-        },
-        {
-            "username": "chuck_g",
-            "displayname": "Pop",
-            "password": "chuckpass.key",
-            "public": true,
-            "approvedcontacts": false,
-            "contacts": [],
-            "profpic": "./assets/profilepics/chuck_g.png"
         },
         {
             "username": "testuser",
@@ -66,145 +33,18 @@
     ],
     "ChatStreams": [
         {
-            "id": 80,
+            "id": 32,
             "group": false,
             "selfdestructing": false,
             "picture": "",
             "name": "",
             "admins": [
-                "dom_g",
+                "testuser",
                 "nate_g"
             ],
             "users": [
-                "dom_g",
+                "testuser",
                 "nate_g"
-            ],
-            "attachedids": [],
-            "messages": []
-        },
-        {
-            "id": 90,
-            "group": true,
-            "selfdestructing": false,
-            "picture": "./assets/chat_media/90/profile.png",
-            "name": "Family Group",
-            "admins": [
-                "nate_g"
-            ],
-            "users": [
-                "dom_g",
-                "nate_g",
-                "rgartland",
-                "chuck_g"
-            ],
-            "attachedids": [
-                42,
-                15,
-                63
-            ],
-            "messages": [
-                {
-                    "source": "nate_g",
-                    "timestamp": "7/23/2024 19:7",
-                    "content": "test sms plain",
-                    "media": false,
-                    "locked": false,
-                    "read": [
-                        "nate_g",
-                        "dom_g"
-                    ]
-                },
-                {
-                    "source": "nate_g",
-                    "timestamp": "7/23/2024 19:10",
-                    "content": "test sms locked",
-                    "media": false,
-                    "locked": true,
-                    "read": [
-                        "nate_g",
-                        "dom_g"
-                    ]
-                },
-                {
-                    "source": "nate_g",
-                    "timestamp": "7/23/2024 19:10",
-                    "content": "./assets/chat_media/90/media/42.jpg",
-                    "media": true,
-                    "locked": false,
-                    "read": [
-                        "nate_g",
-                        "dom_g"
-                    ]
-                },
-                {
-                    "source": "nate_g",
-                    "timestamp": "7/23/2024 19:11",
-                    "content": "./assets/chat_media/90/media/15.jpg",
-                    "media": true,
-                    "locked": true,
-                    "read": [
-                        "nate_g",
-                        "dom_g"
-                    ]
-                },
-                {
-                    "source": "nate_g",
-                    "timestamp": "7/23/2024 19:27",
-                    "content": "test async error prevention",
-                    "media": false,
-                    "locked": false,
-                    "read": [
-                        "nate_g",
-                        "dom_g"
-                    ]
-                },
-                {
-                    "source": "nate_g",
-                    "timestamp": "7/23/2024 22:1",
-                    "content": "./assets/chat_media/90/media/63.jpg",
-                    "media": true,
-                    "locked": false,
-                    "read": [
-                        "nate_g",
-                        "dom_g"
-                    ]
-                },
-                {
-                    "source": "nate_g",
-                    "timestamp": "7/23/2024 22:1",
-                    "content": "new woodshed y'all",
-                    "media": false,
-                    "locked": false,
-                    "read": [
-                        "nate_g",
-                        "dom_g"
-                    ]
-                },
-                {
-                    "source": "nate_g",
-                    "timestamp": "7/23/2024 22:1",
-                    "content": "\ud83d\ude0d",
-                    "media": false,
-                    "locked": false,
-                    "read": [
-                        "nate_g",
-                        "dom_g"
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 93,
-            "group": true,
-            "selfdestructing": false,
-            "picture": "./assets/chat_media/93/profile.png",
-            "name": "The Boys",
-            "admins": [
-                "nate_g"
-            ],
-            "users": [
-                "nate_g",
-                "dom_g"
             ],
             "attachedids": [],
             "messages": []
