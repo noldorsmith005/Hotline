@@ -5,7 +5,6 @@ Pending Updates:
     ~Refactor password viewing and changing
     ~User guide
     ~Auto-Renewing authentication token
-    ~Periodic re-authentication
     ~Refactor user data storage with settings dicts
     ~Add stream initial data loading from local database
     ~Sever migration to django
