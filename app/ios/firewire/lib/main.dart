@@ -49,7 +49,7 @@ class Hotline extends StatelessWidget {
 // ------------------------------------------------------------------------------------ 
 class AppState extends ChangeNotifier {
   DatabaseHandler db = DatabaseHandler();
-  final SERVER = "http://172.66.2.214:9000";
+  final SERVER = "http://172.66.4.8:9000";
   final APPTOKEN = "ZQM.FS(^f!|WeKA&paZ5].*+u[>efN#s~Z~du98)0:OnVX@),cdRJG1(x|zVn3tC*/EC,)Rj,q,G)<A=U-P[[<i]tY3fTnvxdCC5~J0e#hOlafCG";
   bool loggedIn = false;
   bool publicAcct = false;

@@ -446,8 +446,10 @@ class _ManageAccountState extends State<ManageAccount> {
                                           appState.setDisplay(new_displayname);
                                         }
                                         else {
-                                          ScaffoldMessenger.of(context).showSnackBar(
-                                            const SnackBar(content: Text("Update failed. Please try again.")));
+                                          if (context.mounted) {
+                                            ScaffoldMessenger.of(context).showSnackBar(
+                                              const SnackBar(content: Text("Update failed. Please try again.")));
+                                          }
                                         }
                                         pending = false;
                                       });
@@ -555,8 +557,10 @@ class _ManageAccountState extends State<ManageAccount> {
                                           appState.setPassword(new_password);
                                         }
                                         else {
-                                          ScaffoldMessenger.of(context).showSnackBar(
-                                            const SnackBar(content: Text("Password update failed. Please try again.")));
+                                          if (context.mounted) {
+                                            ScaffoldMessenger.of(context).showSnackBar(
+                                              const SnackBar(content: Text("Password update failed. Please try again.")));
+                                          }
                                         }
                                         pending = false;
                                       });

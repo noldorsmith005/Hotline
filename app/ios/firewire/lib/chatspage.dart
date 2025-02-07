@@ -310,12 +310,16 @@ class _NewChatState extends State<NewChat> {
                                           createChat(1);
                                           Future.delayed(Duration(milliseconds: 2000), () {
                                             if (chat_created == true) {
-                                              ScaffoldMessenger.of(context).showSnackBar(
+                                              if (context.mounted) {
+                                                ScaffoldMessenger.of(context).showSnackBar(
                                                 const SnackBar(content: Text("Chat created")));
+                                              }
                                             }
                                             else {
-                                              ScaffoldMessenger.of(context).showSnackBar(
-                                                const SnackBar(content: Text("Invalid user found. Please ensure that all usernames are valid and try again")));
+                                              if (context.mounted) {
+                                                ScaffoldMessenger.of(context).showSnackBar(
+                                                  const SnackBar(content: Text("Invalid user found. Please ensure that all usernames are valid and try again")));
+                                              }
                                             }
                                             setState(() {
                                               chat_users.clear();
@@ -340,12 +344,16 @@ class _NewChatState extends State<NewChat> {
                                         createChat(0);
                                         Future.delayed(Duration(milliseconds: 2000), () {
                                           if (chat_created == true) {
-                                            ScaffoldMessenger.of(context).showSnackBar(
-                                              const SnackBar(content: Text("Chat created")));
+                                            if (context.mounted) {
+                                              ScaffoldMessenger.of(context).showSnackBar(
+                                                const SnackBar(content: Text("Chat created")));
+                                            }
                                           }
                                           else {
-                                            ScaffoldMessenger.of(context).showSnackBar(
-                                              const SnackBar(content: Text("Invalid user found. Please ensure that all usernames are valid and try again")));
+                                            if (context.mounted) {
+                                              ScaffoldMessenger.of(context).showSnackBar(
+                                                const SnackBar(content: Text("Invalid user found. Please ensure that all usernames are valid and try again")));
+                                            }
                                           }
                                           setState(() {
                                             chat_users.clear();

@@ -96,7 +96,9 @@ class _AccountPageState extends State<AccountPage> {
                                   Future.delayed(Duration(milliseconds: 500), () {
                                       VaultData pushdata = VaultData(true, vault_key);
                                       db.writeVaultData(pushdata);
-                                      Navigator.pop(context);
+                                      if (context.mounted) {
+                                        Navigator.pop(context);
+                                      }
                                   });
                                 }
                               },

@@ -3,7 +3,6 @@ from flask_cors import CORS
 import random
 import json
 import base64
-import time
 import os
 
 
@@ -19,7 +18,7 @@ DB = "database.json"
 APPTOKEN = "ZQM.FS(^f!|WeKA&paZ5].*+u[>efN#s~Z~du98)0:OnVX@),cdRJG1(x|zVn3tC*/EC,)Rj,q,G)<A=U-P[[<i]tY3fTnvxdCC5~J0e#hOlafCG" #111
 ADMINTOKEN = "i&if*M>4?ua3PSD3v9S&m6~:vGt|BxXEb>zX1x+wML>+CFr:d_7IH0m=j<gq<=fhAa6Ch<cS[F.QE5Ur_s!#DOXO=hA;h6DI!7xT{#{IEogK}_A,ri8a/6X*h+B^)=2qhH,Un-oZCLAF.7{_RI}5:&?ZQTG1l&Je&s-~eqtoTlDgB!Y#XZ07+Quht1tuZ/DuZ[jrA75t90#w|k8Ub_4#U.,0sOGiTD#h7fOML/~V{aMsnR~VA9~eBn48501U-xmFPTRJ6;.h1IDt4uikcv<ntQk(oxD|!k!.?FjrjjoSxw})B5SE+4_Anw[zkW~l8ygO,TW)/_iWMiF<n2MZ5&SjG*m&VQY1mH5vmeW-39-(AIe<6?z}OGN}G>m3/(me.W?rt;Gy31aZJcYrrrZsx8a+PB}L0-3[CBx@BMEW{1Gx!DScJ]&LIXlfOY*Lu!FkPTA1*PiKaS~c5bxxcD:H;y*[}weB|{)rn}cW;381Kb*~&d{,|hcG+6N0n+6kY3?=9t^y;4>MxC,mc+?~-X4LJ*+3O{3xh1Vv!UtsPt*gw)MI>*K{~YUus^|jM=B>hg_3n?y(y@+R07EtJ[9pjX<=jJ9hDFb^b~*(=Z;!N<bXrMZyB00C),RUtTO7QFy[)^Pd3W#bZJX:=~tyRp.aI=-q(1?z=PduU5.@/NpJAbR]H,ebEk9Mi/5_d.6qp4&DbHy+Y6>JTGKvhv^mwm^i4uD:;hT7<Z]~}RgNepIjwggdSG,nS#GLn>o(LlIn9<=OQg(tN:ThTr2zK/f]N1lc2_hw*TrFzexnCKjsrPS4R=}2Rx4z0iv02TeLVPxp~Zf[M78F8OcBw6@5NAyS[;^,T=RrqwD6Dd=?fwhfw7/CAbQB-9!va}koMrkY4i,7xG]b#NlUEZTq9x9Of<yrfLU)aM>PLb>*cuy#/_vybS7}&(^^1nU^&<C9M1/??rhS:=.c_fdXV+6g^6Ma9nL2uqa9<BIeHHDE*i+tk9Zo}w=iWEnU}o!_" #999
 
-Admin = ["172.66.2.214"]
+Admin = ["172.66.4.8"]
 
 
 #--------------------------------------### Server Functions ###--------------------------------------#
